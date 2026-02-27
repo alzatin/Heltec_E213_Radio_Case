@@ -2744,21 +2744,20 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.32703368940016436,
-              "y": 0.5373134328358209,
+              "x": 0.3286770747740345,
+              "y": 0.5492537313432836,
               "uniqueID": "id-629",
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 4,
-                  "currentEquation": "4"
+                  "ioValue": 3
                 }
               ]
             },
             {
               "atomType": "Extrude",
-              "x": 0.44535743631881675,
-              "y": 0.5701492537313433,
+              "x": 0.4470008216926869,
+              "y": 0.5671641791044776,
               "uniqueID": "id-632",
               "ioValues": [
                 {
@@ -2774,15 +2773,14 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.5472473294987674,
-              "y": 0.35820895522388063,
+              "x": 0.552999178307313,
+              "y": 0.382089552238806,
               "uniqueID": "id-645",
               "name": "Linear_Pattern__Distance_",
               "ioValues": [
                 {
                   "name": "Distance",
-                  "ioValue": 30,
-                  "currentEquation": "30"
+                  "ioValue": 26.5
                 },
                 {
                   "name": "Spacing",
@@ -2816,7 +2814,7 @@
                     },
                     {
                       "name": "distance",
-                      "ioValue": 30
+                      "ioValue": 26.5
                     },
                     {
                       "name": "spacing",
