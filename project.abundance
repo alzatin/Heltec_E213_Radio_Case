@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.34264585045193097,
-      "y": 0.3850746268656716,
+      "x": 0.3607230895645029,
+      "y": 0.2537313432835821,
       "uniqueID": "id-39",
       "name": "E213",
       "topLevel": false,
@@ -503,8 +503,8 @@
     },
     {
       "atomType": "Import",
-      "x": 0.20460147904683645,
-      "y": 0.31044776119402984,
+      "x": 0.2029580936729663,
+      "y": 0.30447761194029854,
       "uniqueID": "id-81",
       "fileName": "Bottom-Blueskies-V1.stl",
       "name": "Import",
@@ -512,9 +512,117 @@
       "repoOwner": "alzatin",
       "repoName": "Heltec_E213_Radio_Case",
       "SVGwidth": 10
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.3105998356614626,
+      "y": 0.5194029850746269,
+      "uniqueID": "id-140",
+      "name": "Battery",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-142",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.33101889893179953,
+          "y": 0.6395522388059701,
+          "uniqueID": "id-144",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 70
+            },
+            {
+              "name": "y length",
+              "ioValue": 35
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.4616680361544782,
+          "y": 0.6723880597014925,
+          "uniqueID": "id-145",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Color",
+          "x": 0.6129827444535744,
+          "y": 0.5731343283582089,
+          "uniqueID": "id-154",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "selectedColor": "Keep Out"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-144",
+          "ap2ID": "id-145"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-145",
+          "ap2ID": "id-154"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-154",
+          "ap2ID": "id-142"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.7592440427280197,
+      "y": 0.5134328358208955,
+      "uniqueID": "id-157",
+      "ioValues": [
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-140",
+      "ap2ID": "id-157"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-157",
+      "ap2ID": "id-2"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
