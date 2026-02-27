@@ -19,72 +19,18 @@
       ]
     },
     {
-      "atomType": "Import",
-      "x": 0.4404272801972063,
-      "y": 0.35820895522388063,
-      "uniqueID": "id-4",
-      "fileName": "Bottom-Blueskies-V1.stl",
-      "name": "Import",
-      "type": "STL",
-      "repoOwner": "alzatin",
-      "repoName": "Heltec_E213_Radio_Case",
-      "SVGwidth": 10
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.2152834839769926,
-      "y": 0.6388059701492538,
-      "uniqueID": "id-6",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 66.75,
-          "currentEquation": "66.75"
-        },
-        {
-          "name": "y length",
-          "ioValue": 30.41,
-          "currentEquation": "30.41"
-        }
-      ]
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.3968775677896467,
-      "y": 0.617910447761194,
-      "uniqueID": "id-10",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 7.08,
-          "currentEquation": "7.08"
-        }
-      ]
-    },
-    {
-      "atomType": "GitHubMolecule",
-      "x": 0.552999178307313,
-      "y": 0.617910447761194,
-      "uniqueID": "id-21",
-      "name": "Fillet_SidesOnly",
-      "ioValues": [
-        {
-          "name": "Fillet",
-          "ioValue": 1,
-          "currentEquation": "1"
-        }
-      ],
+      "atomType": "Molecule",
+      "x": 0.34264585045193097,
+      "y": 0.3850746268656716,
+      "uniqueID": "id-39",
+      "name": "E213",
       "topLevel": false,
       "allAtoms": [
         {
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-15",
+          "uniqueID": "id-41",
           "ioValues": [
             {
               "name": "number or geometry",
@@ -93,51 +39,26 @@
           ]
         },
         {
-          "atomType": "Code",
-          "x": 0.48956228956228953,
-          "y": 0.48192771084337344,
-          "uniqueID": "id-16",
-          "ioValues": [
-            {
-              "name": "shape",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "fillet",
-              "ioValue": 1
-            }
-          ],
-          "codeVersion": 1,
-          "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"fillet\", type: \"number\", defaultValue: 1 },\n];\n\nlet importedShape = library[shape]\nlet newPlane = replicad.makePlane()\n\nif (fillet > 0){\n  \nlet filletedCyl = importedShape.geometry[0].fillet(fillet, (e) => e.inDirection([0, 0, 1]));\n return {\n  geometry: [filletedCyl],\n  dimension: \"3D\",\n  tags: [\"createdShape\"],\n  color: '#A3CE5B',\n  plane: newPlane,\n  bom: [],\n}\n}\nelse{\n  return {\n  geometry: [importedShape],\n  dimension: \"3D\",\n  tags: [\"createdShape\"],\n  color: '#A3CE5B',\n  plane: newPlane,\n  bom: [],\n}\n  \n}\n"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
-          "uniqueID": "id-17",
-          "name": "InputShape"
-        },
-        {
           "atomType": "Rectangle",
-          "x": 0.11582491582491583,
-          "y": 0.6837349397590361,
-          "uniqueID": "id-18",
+          "x": 0.2037797863599014,
+          "y": 0.5373134328358209,
+          "uniqueID": "id-44",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 66.75
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 30.41
             }
           ]
         },
         {
           "atomType": "Extrude",
-          "x": 0.19797979797979798,
-          "y": 0.7801204819277108,
-          "uniqueID": "id-19",
+          "x": 0.4116680361544782,
+          "y": 0.30149253731343284,
+          "uniqueID": "id-45",
           "ioValues": [
             {
               "name": "geometry",
@@ -145,80 +66,455 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 7.08
             }
           ]
         },
         {
-          "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.24615384615384617,
-          "uniqueID": "id-20",
-          "name": "Fillet"
+          "atomType": "GitHubMolecule",
+          "x": 0.5595727198027938,
+          "y": 0.3492537313432836,
+          "uniqueID": "id-46",
+          "name": "Fillet_SidesOnly",
+          "ioValues": [
+            {
+              "name": "Fillet",
+              "ioValue": 1
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-47",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Code",
+              "x": 0.48956228956228953,
+              "y": 0.48192771084337344,
+              "uniqueID": "id-48",
+              "ioValues": [
+                {
+                  "name": "shape",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "fillet",
+                  "ioValue": 1
+                }
+              ],
+              "codeVersion": 1,
+              "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"fillet\", type: \"number\", defaultValue: 1 },\n];\n\nlet importedShape = library[shape]\nlet newPlane = replicad.makePlane()\n\nif (fillet > 0){\n  \nlet filletedCyl = importedShape.geometry[0].fillet(fillet, (e) => e.inDirection([0, 0, 1]));\n return {\n  geometry: [filletedCyl],\n  dimension: \"3D\",\n  tags: [\"createdShape\"],\n  color: '#A3CE5B',\n  plane: newPlane,\n  bom: [],\n}\n}\nelse{\n  return {\n  geometry: [importedShape],\n  dimension: \"3D\",\n  tags: [\"createdShape\"],\n  color: '#A3CE5B',\n  plane: newPlane,\n  bom: [],\n}\n  \n}\n"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-49",
+              "name": "InputShape"
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.11582491582491583,
+              "y": 0.6837349397590361,
+              "uniqueID": "id-50",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 10
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 10
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.19797979797979798,
+              "y": 0.7801204819277108,
+              "uniqueID": "id-51",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 10
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
+              "uniqueID": "id-52",
+              "name": "Fillet"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-48",
+              "ap2ID": "id-47"
+            },
+            {
+              "ap2Name": "shape",
+              "ap1ID": "id-49",
+              "ap2ID": "id-48"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-50",
+              "ap2ID": "id-51"
+            },
+            {
+              "ap2Name": "fillet",
+              "ap1ID": "id-52",
+              "ap2ID": "id-48"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2026-02-27T18:23:39.737Z",
+            "privateRepo": false,
+            "repoName": "Fillet_SidesOnly",
+            "dateCreated": "2026-02-22T22:54:42Z",
+            "readMe": "https://raw.githubusercontent.com/alzatin/Fillet_SidesOnly/master/README.md?sanitize=true",
+            "yyyy": 2026,
+            "topMoleculeID": "id-94",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/alzatin/Fillet_SidesOnly",
+            "topics": [
+              "abundance-tool"
+            ],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739669",
+            "ranking": 0,
+            "searchField": "fillet_sidesonly alzatin fillets sides of an extrusion abundance-tool",
+            "owner": "alzatin",
+            "description": "Fillets sides of an extrusion",
+            "contentURL": "https://raw.githubusercontent.com/alzatin/Fillet_SidesOnly/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/alzatin/Fillet_SidesOnly/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "MM",
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.8208709942481512,
+          "y": 0.4805970149253731,
+          "uniqueID": "id-83",
+          "ioValues": [
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.6023007395234182,
+          "y": 0.6955223880597015,
+          "uniqueID": "id-98",
+          "name": "Scale",
+          "ioValues": [
+            {
+              "name": "Geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Scale Factor",
+              "ioValue": 1.01,
+              "currentEquation": "1.01"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-88",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-89",
+              "name": "Geometry",
+              "type": "geometry"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
+              "uniqueID": "id-90",
+              "name": "Scale Factor",
+              "type": "number"
+            },
+            {
+              "atomType": "Code",
+              "x": 0.5359160613397901,
+              "y": 0.6739130434782609,
+              "uniqueID": "id-91",
+              "ioValues": [
+                {
+                  "name": "scaleFactor",
+                  "ioValue": 1.01
+                }
+              ],
+              "codeVersion": 1,
+              "code": " \n      //Inputs:[inputShape, scaleFactor]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n\n      let scaledShape = await Scale(inputShape, scaleFactor);\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [scaledShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      return shape1\n      \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.2832214765100671,
+              "y": 0.27639751552795033,
+              "uniqueID": "id-92",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 10
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.4154362416107382,
+              "y": 0.2546583850931677,
+              "uniqueID": "id-93",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 10
+                }
+              ]
+            },
+            {
+              "atomType": "Code",
+              "x": 0.514765100671141,
+              "y": 0.453416149068323,
+              "uniqueID": "id-94",
+              "ioValues": [
+                {
+                  "name": "scaleFactor",
+                  "ioValue": 3
+                },
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "codeVersion": 1,
+              "code": " \n      //Inputs:[inputShape, scaleFactor]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n\n      let scaledShape = await Scale(inputShape, scaleFactor);\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [scaledShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      return shape1\n      \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+            },
+            {
+              "atomType": "Assembly",
+              "x": 0.7304277643260694,
+              "y": 0.3726708074534162,
+              "uniqueID": "id-95",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": null
+                },
+                {
+                  "name": "Shape 2",
+                  "ioValue": null
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.6263115415657788,
+              "y": 0.2732919254658385,
+              "uniqueID": "id-96",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 30
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Readme",
+              "x": 0.8175948345439871,
+              "y": 0.2981366459627329,
+              "uniqueID": "id-97",
+              "name": "README",
+              "ioValues": [
+                {
+                  "name": "value",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "readMeText": "Readme text here",
+              "global": true
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "inputShape",
+              "ap1ID": "id-89",
+              "ap2ID": "id-91"
+            },
+            {
+              "ap2Name": "scaleFactor",
+              "ap1ID": "id-90",
+              "ap2ID": "id-91"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-91",
+              "ap2ID": "id-88"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-92",
+              "ap2ID": "id-93"
+            },
+            {
+              "ap2Name": "inputShape",
+              "ap1ID": "id-93",
+              "ap2ID": "id-94"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-93",
+              "ap2ID": "id-96"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-94",
+              "ap2ID": "id-95"
+            },
+            {
+              "ap2Name": "Shape 2",
+              "ap1ID": "id-96",
+              "ap2ID": "id-95"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2026-02-27T18:23:39.737Z",
+            "privateRepo": false,
+            "repoName": "Scale",
+            "dateCreated": "2025-06-26T17:06:11Z",
+            "likes": 0,
+            "readMe": "https://raw.githubusercontent.com/alzatin/Scale/master/README.md?sanitize=true",
+            "yyyy": 2025,
+            "topMoleculeID": "4b6bc40a-44a9-438a-9ed9-ba4910815d8d",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/alzatin/Scale",
+            "topics": [],
+            "parentRepo": "BarbourSmith/Scale",
+            "forks": 0,
+            "dateModified": "739564",
+            "ranking": 0.6,
+            "searchField": "scale alzatin scales the input 2d or 3d geometry by the scale factor ",
+            "owner": "alzatin",
+            "description": "Scales the input 2D or 3D geometry by the scale factor",
+            "contentURL": "https://raw.githubusercontent.com/alzatin/Scale/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/alzatin/Scale/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "Unitless",
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Color",
+          "x": 0.7493837304847987,
+          "y": 0.6388059701492538,
+          "uniqueID": "id-127",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "selectedColor": "Keep Out"
         }
       ],
       "allConnectors": [
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-16",
-          "ap2ID": "id-15"
+          "ap2Name": "geometry",
+          "ap1ID": "id-44",
+          "ap2ID": "id-45"
         },
         {
-          "ap2Name": "shape",
-          "ap1ID": "id-17",
-          "ap2ID": "id-16"
+          "ap2Name": "InputShape",
+          "ap1ID": "id-45",
+          "ap2ID": "id-46"
+        },
+        {
+          "ap2Name": "Geometry",
+          "ap1ID": "id-46",
+          "ap2ID": "id-98"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-83",
+          "ap2ID": "id-41"
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-18",
-          "ap2ID": "id-19"
+          "ap1ID": "id-98",
+          "ap2ID": "id-127"
         },
         {
-          "ap2Name": "fillet",
-          "ap1ID": "id-20",
-          "ap2ID": "id-16"
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-127",
+          "ap2ID": "id-83"
         }
       ],
-      "parentRepo": {
-        "lastFoundGit": "2026-02-27T18:23:39.737Z",
-        "privateRepo": false,
-        "repoName": "Fillet_SidesOnly",
-        "dateCreated": "2026-02-22T22:54:42Z",
-        "readMe": "https://raw.githubusercontent.com/alzatin/Fillet_SidesOnly/master/README.md?sanitize=true",
-        "yyyy": 2026,
-        "topMoleculeID": "id-94",
-        "githubMoleculesUsed": [],
-        "html_url": "https://github.com/alzatin/Fillet_SidesOnly",
-        "topics": [
-          "abundance-tool"
-        ],
-        "parentRepo": null,
-        "forks": 0,
-        "dateModified": "739669",
-        "ranking": 0,
-        "searchField": "fillet_sidesonly alzatin fillets sides of an extrusion abundance-tool",
-        "owner": "alzatin",
-        "description": "Fillets sides of an extrusion",
-        "contentURL": "https://raw.githubusercontent.com/alzatin/Fillet_SidesOnly/master/project.abundance?sanitize=true",
-        "svgURL": "https://raw.githubusercontent.com/alzatin/Fillet_SidesOnly/master/project.svg?sanitize=true",
-        "isLocal": false
-      },
-      "unitsKey": "MM",
       "fileTypeVersion": 1
-    }
-  ],
-  "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-6",
-      "ap2ID": "id-10"
     },
     {
-      "ap2Name": "InputShape",
-      "ap1ID": "id-10",
-      "ap2ID": "id-21"
+      "atomType": "Import",
+      "x": 0.20460147904683645,
+      "y": 0.31044776119402984,
+      "uniqueID": "id-81",
+      "fileName": "Bottom-Blueskies-V1.stl",
+      "name": "Import",
+      "type": "STL",
+      "repoOwner": "alzatin",
+      "repoName": "Heltec_E213_Radio_Case",
+      "SVGwidth": 10
     }
   ],
+  "allConnectors": [],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
