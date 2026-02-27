@@ -1383,8 +1383,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.7189811010682006,
-          "y": 0.8686567164179105,
+          "x": 0.7329498767460969,
+          "y": 0.8507462686567163,
           "uniqueID": "id-380",
           "name": "Shell",
           "ioValues": [
@@ -2716,6 +2716,66 @@
             }
           ],
           "currentEquation": "x /2"
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.761709120788825,
+          "y": 0.22686567164179106,
+          "uniqueID": "id-625",
+          "name": "Molecule",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-627",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.32703368940016436,
+              "y": 0.5373134328358209,
+              "uniqueID": "id-629",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 4,
+                  "currentEquation": "4"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.42235004108463436,
+              "y": 0.6208955223880597,
+              "uniqueID": "id-632",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 10,
+                  "currentEquation": "10"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-629",
+              "ap2ID": "id-632"
+            }
+          ],
+          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [
