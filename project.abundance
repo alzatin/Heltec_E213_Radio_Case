@@ -676,14 +676,14 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.2826622843056697,
-          "y": 0.6895522388059702,
+          "x": 0.2752670501232539,
+          "y": 0.7253731343283581,
           "uniqueID": "id-213",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 102,
-              "currentEquation": "100 + Wall_thick"
+              "ioValue": 92,
+              "currentEquation": "90 + Wall_thick"
             },
             {
               "name": "y length",
@@ -2171,8 +2171,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5965488907148726,
-          "y": 0.6089552238805971,
+          "x": 0.6014790468364832,
+          "y": 0.6,
           "uniqueID": "id-503",
           "ioValues": [
             {
@@ -2196,8 +2196,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.8553820870994249,
-          "y": 0.6567164179104478,
+          "x": 0.8545603944124897,
+          "y": 0.6626865671641792,
           "uniqueID": "id-509",
           "ioValues": [
             {
