@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Import",
-      "x": 0.31470829909613807,
-      "y": 0.6298507462686567,
+      "x": 0.4404272801972063,
+      "y": 0.35820895522388063,
       "uniqueID": "id-4",
       "fileName": "Bottom-Blueskies-V1.stl",
       "name": "Import",
@@ -32,17 +32,19 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.5102711585866886,
-      "y": 0.6059701492537313,
+      "x": 0.3730484798685292,
+      "y": 0.6776119402985075,
       "uniqueID": "id-6",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 66.75,
+          "currentEquation": "66.75"
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 30.41,
+          "currentEquation": "30.41"
         }
       ]
     }
