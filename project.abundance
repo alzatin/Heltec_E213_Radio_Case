@@ -29,6 +29,22 @@
       "repoOwner": "alzatin",
       "repoName": "Heltec_E213_Radio_Case",
       "SVGwidth": 10
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.5102711585866886,
+      "y": 0.6059701492537313,
+      "uniqueID": "id-6",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [],
