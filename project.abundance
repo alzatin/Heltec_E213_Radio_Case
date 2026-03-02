@@ -650,8 +650,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.4009831460674157,
-      "y": 0.713855421686747,
+      "x": 0.43117977528089885,
+      "y": 0.6656626506024096,
       "uniqueID": "id-209",
       "name": "Case_exterior",
       "ioValues": [
@@ -758,24 +758,24 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.8167625308134757,
-          "y": 0.5343283582089552,
+          "x": 0.8153089887640449,
+          "y": 0.569277108433735,
           "uniqueID": "id-492",
           "ioValues": [
             {
-              "name": "Shape 4",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 5",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 6",
-              "ioValue": null
-            },
-            {
               "name": "Shape 7",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 8",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 9",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 10",
               "ioValue": null
             }
           ]
@@ -2670,8 +2670,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.5049157303370787,
-          "y": 0.7951807228915663,
+          "x": 0.5133426966292135,
+          "y": 0.8283132530120482,
           "uniqueID": "id-719",
           "name": "Case_shell",
           "ioValues": [
@@ -2706,8 +2706,8 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 100,
-                  "currentEquation": "100"
+                  "ioValue": 98,
+                  "currentEquation": "98"
                 },
                 {
                   "name": "y length",
@@ -3368,7 +3368,7 @@
           "ap2ID": "id-222"
         },
         {
-          "ap2Name": "Shape 7",
+          "ap2Name": "Shape 8",
           "ap1ID": "id-349",
           "ap2ID": "id-492"
         },
@@ -3403,7 +3403,7 @@
           "ap2ID": "id-211"
         },
         {
-          "ap2Name": "Shape 4",
+          "ap2Name": "Shape 10",
           "ap1ID": "id-614",
           "ap2ID": "id-492"
         },
@@ -3413,7 +3413,7 @@
           "ap2ID": "id-614"
         },
         {
-          "ap2Name": "Shape 5",
+          "ap2Name": "Shape 9",
           "ap1ID": "id-680",
           "ap2ID": "id-492"
         },
@@ -3448,7 +3448,7 @@
           "ap2ID": "id-680"
         },
         {
-          "ap2Name": "Shape 6",
+          "ap2Name": "Shape 7",
           "ap1ID": "id-719",
           "ap2ID": "id-492"
         }
