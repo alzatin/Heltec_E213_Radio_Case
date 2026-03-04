@@ -46,8 +46,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7682584269662922,
-      "y": 0.4608433734939759,
+      "x": 0.6619090098126673,
+      "y": 0.4126506024096385,
       "uniqueID": "id-157",
       "ioValues": [
         {
@@ -650,8 +650,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.4329159212880143,
-      "y": 0.6506024096385542,
+      "x": 0.4299732381801962,
+      "y": 0.6536144578313253,
       "uniqueID": "id-209",
       "name": "Case_exterior",
       "ioValues": [
@@ -758,8 +758,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7582515611061552,
-          "y": 0.6686746987951807,
+          "x": 0.7627118644067796,
+          "y": 0.6445783132530121,
           "uniqueID": "id-492",
           "ioValues": [
             {
@@ -2670,8 +2670,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.504014272970562,
-          "y": 0.8102409638554217,
+          "x": 0.5075825156110615,
+          "y": 0.8313253012048193,
           "uniqueID": "id-719",
           "name": "Case_shell",
           "ioValues": [
@@ -2716,8 +2716,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.36217662801070477,
-              "y": 0.3704819277108434,
+              "x": 0.3648528099910794,
+              "y": 0.3433734939759036,
               "uniqueID": "id-724",
               "ioValues": [
                 {
@@ -2787,8 +2787,8 @@
             },
             {
               "atomType": "Assembly",
-              "x": 0.8688670829616414,
-              "y": 0.5873493975903614,
+              "x": 0.872435325602141,
+              "y": 0.569277108433735,
               "uniqueID": "id-841",
               "ioValues": [
                 {
@@ -2803,8 +2803,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.4986619090098126,
-              "y": 0.28012048192771083,
+              "x": 0.46565566458519175,
+              "y": 0.286144578313253,
               "uniqueID": "id-725",
               "name": "Fillet_SidesOnly",
               "ioValues": [
@@ -2943,8 +2943,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.7945768282662284,
-              "y": 0.2447761194029851,
+              "x": 0.6859946476360392,
+              "y": 0.28012048192771083,
               "uniqueID": "id-732",
               "name": "Shell",
               "ioValues": [
@@ -3295,10 +3295,10 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.39964317573595004,
-              "y": 0.8222891566265061,
+              "x": 0.3978590544157003,
+              "y": 0.8072289156626505,
               "uniqueID": "id-2645",
-              "name": "Molecule",
+              "name": "Side_clip",
               "topLevel": false,
               "allAtoms": [
                 {
@@ -3315,8 +3315,8 @@
                 },
                 {
                   "atomType": "Circle",
-                  "x": 0.3853702051739518,
-                  "y": 0.31626506024096385,
+                  "x": 0.31222123104371097,
+                  "y": 0.32228915662650603,
                   "uniqueID": "id-2649",
                   "ioValues": [
                     {
@@ -3448,8 +3448,8 @@
                 },
                 {
                   "atomType": "Extrude",
-                  "x": 0.6735057983942908,
-                  "y": 0.39457831325301207,
+                  "x": 0.6761819803746655,
+                  "y": 0.4066265060240964,
                   "uniqueID": "id-2667",
                   "ioValues": [
                     {
@@ -3458,8 +3458,8 @@
                     },
                     {
                       "name": "height",
-                      "ioValue": 1.5,
-                      "currentEquation": "1.5"
+                      "ioValue": 1,
+                      "currentEquation": "1"
                     }
                   ]
                 },
@@ -3491,8 +3491,8 @@
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.8135593220338982,
-                  "y": 0.5301204819277108,
+                  "x": 0.8189116859946476,
+                  "y": 0.5210843373493976,
                   "uniqueID": "id-2677",
                   "ioValues": [
                     {
@@ -3501,8 +3501,8 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -47.5,
-                      "currentEquation": "-47.5"
+                      "ioValue": -48.5,
+                      "currentEquation": "-48.5"
                     },
                     {
                       "name": "yDist",
@@ -3594,7 +3594,7 @@
                 {
                   "name": "Shape 3",
                   "ioValue": {
-                    "geometry": "move-rotate-extrude-shrinkWrap-fuse-move-circle-5-13-0-0-rectangle-1-10-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5-0--90-0--47.5-10--2.5",
+                    "geometry": "move-rotate-extrude-shrinkWrap-fuse-move-circle-5-13-0-0-rectangle-1-10-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1-0--90-0--48.5-10--2.5",
                     "dimension": "3D",
                     "tags": [],
                     "color": "#aad7f2",
@@ -3622,6 +3622,22 @@
                 }
               ],
               "unionType": "Fusion"
+            },
+            {
+              "atomType": "Tag",
+              "x": 0.7966101694915255,
+              "y": 0.3102409638554217,
+              "uniqueID": "id-2689",
+              "name": "Case_top",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "tags": [
+                "Case_top"
+              ]
             }
           ],
           "allConnectors": [
@@ -3671,9 +3687,9 @@
               "ap2ID": "id-837"
             },
             {
-              "ap2Name": "Shape 1",
+              "ap2Name": "geometry",
               "ap1ID": "id-732",
-              "ap2ID": "id-841"
+              "ap2ID": "id-2689"
             },
             {
               "ap2Name": "Shape 3",
@@ -3683,6 +3699,11 @@
             {
               "ap2Name": "Shape 2",
               "ap1ID": "id-2683",
+              "ap2ID": "id-841"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-2689",
               "ap2ID": "id-841"
             }
           ],
@@ -3792,6 +3813,51 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.7502230151650312,
+      "y": 0.75,
+      "uniqueID": "id-2700",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tag": "Case_top",
+      "tagIndex": 0
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8429973238180196,
+      "y": 0.8825301204819277,
+      "uniqueID": "id-2703",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Heltec_E213_Radio_Case_TOP",
+          "currentEquation": "Heltec_E213_Radio_Case_TOP"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Heltec_E213_Radio_Case_TOP"
     }
   ],
   "allConnectors": [
@@ -3799,6 +3865,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-157",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-157",
+      "ap2ID": "id-2700"
     },
     {
       "ap2Name": "Heltec_total_height",
@@ -3814,6 +3885,11 @@
       "ap2Name": "Shape 3",
       "ap1ID": "id-209",
       "ap2ID": "id-157"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2700",
+      "ap2ID": "id-2703"
     }
   ],
   "unitsKey": "MM",
