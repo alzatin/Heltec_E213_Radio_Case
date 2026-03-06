@@ -113,8 +113,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.5694799658994033,
-      "y": 0.3734939759036145,
+      "x": 0.5643648763853367,
+      "y": 0.3765060240963855,
       "uniqueID": "id-2790",
       "name": "Extract Tag",
       "ioValues": [
@@ -4552,6 +4552,71 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.7459505541346974,
+      "y": 0.18373493975903615,
+      "uniqueID": "id-4038",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Heltec_E213_Radio_Case",
+          "currentEquation": "Heltec_E213_Radio_Case"
+        }
+      ],
+      "partName": "Heltec_E213_Radio_Case",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.7442455242966752,
+      "y": 0.47289156626506024,
+      "uniqueID": "id-4045",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Heltec_E213_Radio_Case",
+          "currentEquation": "Heltec_E213_Radio_Case"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Heltec_E213_Radio_Case"
     }
   ],
   "allConnectors": [
@@ -4564,6 +4629,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-2700",
       "ap2ID": "id-2703"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2790",
+      "ap2ID": "id-4038"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2790",
+      "ap2ID": "id-4045"
     },
     {
       "ap2Name": "geometry",
