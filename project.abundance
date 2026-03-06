@@ -46,8 +46,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5635123614663257,
-      "y": 0.5240963855421688,
+      "x": 0.5601023017902813,
+      "y": 0.5271084337349398,
       "uniqueID": "id-157",
       "ioValues": [
         {
@@ -128,8 +128,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.7502131287297528,
-      "y": 0.22590361445783133,
+      "x": 0.7178175618073316,
+      "y": 0.24096385542168672,
       "uniqueID": "id-2790",
       "name": "Extract Tag",
       "ioValues": [
@@ -143,8 +143,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.855924978687127,
-      "y": 0.3283132530120482,
+      "x": 0.8584825234441603,
+      "y": 0.3132530120481927,
       "uniqueID": "id-2793",
       "ioValues": [
         {
@@ -166,7 +166,7 @@
           "currentEquation": "Heltec_E213_Radio_Case_bottom"
         }
       ],
-      "type": null,
+      "type": "STL",
       "resolution": 96,
       "importIndex": 0,
       "partName": "Heltec_E213_Radio_Case_bottom"
@@ -740,8 +740,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.411764705882353,
-      "y": 0.6897590361445783,
+      "x": 0.4100596760443308,
+      "y": 0.6927710843373494,
       "uniqueID": "id-209",
       "name": "Case_exterior",
       "ioValues": [
@@ -848,8 +848,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.763000852514919,
-          "y": 0.5,
+          "x": 0.782608695652174,
+          "y": 0.4789156626506024,
           "uniqueID": "id-492",
           "ioValues": [
             {
@@ -872,8 +872,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.6014790468364832,
-          "y": 0.33432835820895523,
+          "x": 0.6027280477408354,
+          "y": 0.3313253012048193,
           "uniqueID": "id-497",
           "ioValues": [
             {
@@ -928,8 +928,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.32128184059161874,
-          "y": 0.7402985074626866,
+          "x": 0.32225063938618925,
+          "y": 0.746987951807229,
           "uniqueID": "id-614",
           "ioValues": [
             {
@@ -938,11 +938,13 @@
             },
             {
               "name": "xDist",
-              "ioValue": -42
+              "ioValue": -44.5,
+              "currentEquation": "-44.5"
             },
             {
               "name": "yDist",
-              "ioValue": 10
+              "ioValue": 10,
+              "currentEquation": "10"
             },
             {
               "name": "zDist",
@@ -1588,8 +1590,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.10912343470483006,
-          "y": 0.8403614457831325,
+          "x": 0.10059676044330775,
+          "y": 0.8463855421686747,
           "uniqueID": "id-564",
           "name": "Antena_case",
           "topLevel": false,
@@ -2960,8 +2962,8 @@
             },
             {
               "atomType": "Tag",
-              "x": 0.763000852514919,
-              "y": 0.2891566265060241,
+              "x": 0.7706734867860188,
+              "y": 0.27710843373493976,
               "uniqueID": "id-2689",
               "name": "Case_top",
               "ioValues": [
@@ -3484,8 +3486,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.2970561998215879,
-              "y": 0.7951807228915663,
+              "x": 0.2898550724637681,
+              "y": 0.7981927710843374,
               "uniqueID": "id-2645",
               "name": "Case_bottom",
               "topLevel": false,
@@ -4421,8 +4423,8 @@
         },
         {
           "atomType": "Tag",
-          "x": 0.8482523444160273,
-          "y": 0.3373493975903614,
+          "x": 0.8584825234441603,
+          "y": 0.3403614457831325,
           "uniqueID": "id-3999",
           "name": "Case_top_full",
           "ioValues": [
@@ -4437,8 +4439,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7911338448422847,
-          "y": 0.8463855421686747,
+          "x": 0.8277919863597613,
+          "y": 0.7891566265060241,
           "uniqueID": "id-4002",
           "ioValues": [
             {
@@ -4450,6 +4452,21 @@
               "ioValue": null
             }
           ]
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.6726342710997443,
+          "y": 0.9066265060240964,
+          "uniqueID": "id-4007",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "Case_bottom",
+          "tagIndex": 0
         }
       ],
       "allConnectors": [
@@ -4554,9 +4571,9 @@
           "ap2ID": "id-3993"
         },
         {
-          "ap2Name": "Shape 2",
+          "ap2Name": "geometry",
           "ap1ID": "id-719",
-          "ap2ID": "id-4002"
+          "ap2ID": "id-4007"
         },
         {
           "ap2Name": "Shape 10",
@@ -4572,6 +4589,11 @@
           "ap2Name": "geometry1",
           "ap1ID": "id-4002",
           "ap2ID": "id-509"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-4007",
+          "ap2ID": "id-4002"
         }
       ],
       "fileTypeVersion": 1
