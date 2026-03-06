@@ -46,8 +46,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6402387041773231,
-      "y": 0.46987951807228917,
+      "x": 0.5635123614663257,
+      "y": 0.5240963855421688,
       "uniqueID": "id-157",
       "ioValues": [
         {
@@ -83,8 +83,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.7450980392156863,
-      "y": 0.75,
+      "x": 0.6615515771526002,
+      "y": 0.7560240963855422,
       "uniqueID": "id-2700",
       "name": "Extract Tag",
       "ioValues": [
@@ -98,8 +98,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8358608385370205,
-      "y": 0.8855421686746988,
+      "x": 0.8593350383631713,
+      "y": 0.7349397590361446,
       "uniqueID": "id-2703",
       "ioValues": [
         {
@@ -128,8 +128,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.7546833184656557,
-      "y": 0.20180722891566263,
+      "x": 0.7502131287297528,
+      "y": 0.22590361445783133,
       "uniqueID": "id-2790",
       "name": "Extract Tag",
       "ioValues": [
@@ -138,13 +138,13 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "tag": "Case_bottom",
+      "tag": "Case_top_full",
       "tagIndex": 0
     },
     {
       "atomType": "Export",
-      "x": 0.8525149190110827,
-      "y": 0.35240963855421686,
+      "x": 0.855924978687127,
+      "y": 0.3283132530120482,
       "uniqueID": "id-2793",
       "ioValues": [
         {
@@ -388,10 +388,6 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 1.01
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -434,6 +430,10 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 3
+                },
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -740,8 +740,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.42455242966751916,
-      "y": 0.6746987951807228,
+      "x": 0.411764705882353,
+      "y": 0.6897590361445783,
       "uniqueID": "id-209",
       "name": "Case_exterior",
       "ioValues": [
@@ -848,24 +848,24 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7885763000852516,
-          "y": 0.7168674698795181,
+          "x": 0.763000852514919,
+          "y": 0.5,
           "uniqueID": "id-492",
           "ioValues": [
             {
-              "name": "Shape 7",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 8",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 9",
-              "ioValue": null
-            },
-            {
               "name": "Shape 10",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 11",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 12",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 13",
               "ioValue": null
             }
           ]
@@ -912,8 +912,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.8822479928635147,
-          "y": 0.5933734939759037,
+          "x": 0.9045183290707587,
+          "y": 0.6325301204819277,
           "uniqueID": "id-509",
           "ioValues": [
             {
@@ -966,8 +966,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.83942908117752,
-          "y": 0.2439759036144578,
+          "x": 0.7740835464620631,
+          "y": 0.20180722891566263,
           "uniqueID": "id-680",
           "ioValues": [
             {
@@ -1411,10 +1411,6 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 0.9
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1457,6 +1453,10 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 3
+                },
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -2090,10 +2090,6 @@
                     {
                       "name": "scaleFactor",
                       "ioValue": 1.01
-                    },
-                    {
-                      "name": "inputShape",
-                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -2136,6 +2132,10 @@
                     {
                       "name": "scaleFactor",
                       "ioValue": 3
+                    },
+                    {
+                      "name": "inputShape",
+                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -2302,8 +2302,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.7415026833631485,
-          "y": 0.18674698795180725,
+          "x": 0.6973572037510657,
+          "y": 0.16265060240963855,
           "uniqueID": "id-625",
           "name": "Button",
           "topLevel": false,
@@ -2760,8 +2760,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.5404944586530264,
-          "y": 0.8403614457831325,
+          "x": 0.5140664961636829,
+          "y": 0.8313253012048193,
           "uniqueID": "id-719",
           "name": "Case_shell",
           "ioValues": [
@@ -2878,7 +2878,7 @@
             {
               "atomType": "Assembly",
               "x": 0.8789428815004262,
-              "y": 0.4879518072289156,
+              "y": 0.5090361445783133,
               "uniqueID": "id-841",
               "ioValues": [
                 {
@@ -3132,8 +3132,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.6223358908780904,
-              "y": 0.2740963855421687,
+              "x": 0.6163682864450127,
+              "y": 0.2620481927710844,
               "uniqueID": "id-3428",
               "name": "Shell",
               "ioValues": [
@@ -4403,6 +4403,53 @@
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.6649616368286445,
+          "y": 0.641566265060241,
+          "uniqueID": "id-3993",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "Case_top",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.8482523444160273,
+          "y": 0.3373493975903614,
+          "uniqueID": "id-3999",
+          "name": "Case_top_full",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "Case_top_full"
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.7911338448422847,
+          "y": 0.8463855421686747,
+          "uniqueID": "id-4002",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -4422,7 +4469,7 @@
           "ap2ID": "id-222"
         },
         {
-          "ap2Name": "Shape 8",
+          "ap2Name": "Shape 11",
           "ap1ID": "id-349",
           "ap2ID": "id-492"
         },
@@ -4437,9 +4484,9 @@
           "ap2ID": "id-439"
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "geometry",
           "ap1ID": "id-492",
-          "ap2ID": "id-509"
+          "ap2ID": "id-3999"
         },
         {
           "ap2Name": "geometry",
@@ -4457,7 +4504,7 @@
           "ap2ID": "id-211"
         },
         {
-          "ap2Name": "Shape 10",
+          "ap2Name": "Shape 13",
           "ap1ID": "id-614",
           "ap2ID": "id-492"
         },
@@ -4467,7 +4514,7 @@
           "ap2ID": "id-614"
         },
         {
-          "ap2Name": "Shape 9",
+          "ap2Name": "Shape 12",
           "ap1ID": "id-680",
           "ap2ID": "id-492"
         },
@@ -4502,9 +4549,29 @@
           "ap2ID": "id-680"
         },
         {
-          "ap2Name": "Shape 7",
+          "ap2Name": "geometry",
           "ap1ID": "id-719",
+          "ap2ID": "id-3993"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-719",
+          "ap2ID": "id-4002"
+        },
+        {
+          "ap2Name": "Shape 10",
+          "ap1ID": "id-3993",
           "ap2ID": "id-492"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-3999",
+          "ap2ID": "id-4002"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-4002",
+          "ap2ID": "id-509"
         }
       ],
       "fileTypeVersion": 1
