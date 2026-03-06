@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "Wall_thick",
-      "ioValue": 0,
-      "currentEquation": "0"
+      "ioValue": 0
     },
     {
       "name": "Heltec_total_height",
@@ -125,6 +124,71 @@
       ],
       "tag": "Case_top_full",
       "tagIndex": 0
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.7425404944586531,
+      "y": 0.17469879518072287,
+      "uniqueID": "id-4038",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Heltec_E213_Radio_Case",
+          "currentEquation": "Heltec_E213_Radio_Case"
+        }
+      ],
+      "partName": "Heltec_E213_Radio_Case",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.7468030690537085,
+      "y": 0.41566265060240964,
+      "uniqueID": "id-4045",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Heltec_E213_Radio_Case",
+          "currentEquation": "Heltec_E213_Radio_Case"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Heltec_E213_Radio_Case"
     },
     {
       "atomType": "Molecule",
@@ -343,6 +407,10 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 1.01
+                },
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -385,10 +453,6 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 3
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -893,13 +957,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": -44.5,
-              "currentEquation": "-44.5"
+              "ioValue": -44.5
             },
             {
               "name": "yDist",
-              "ioValue": 10,
-              "currentEquation": "10"
+              "ioValue": 10
             },
             {
               "name": "zDist",
@@ -944,6 +1006,68 @@
               "ioValue": 16
             }
           ]
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.6649616368286445,
+          "y": 0.641566265060241,
+          "uniqueID": "id-3993",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "Case_top",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.8584825234441603,
+          "y": 0.3403614457831325,
+          "uniqueID": "id-3999",
+          "name": "Case_top_full",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "Case_top_full"
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.8243819266837169,
+          "y": 0.7951807228915663,
+          "uniqueID": "id-4002",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.6726342710997443,
+          "y": 0.9066265060240964,
+          "uniqueID": "id-4007",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "Case_bottom",
+          "tagIndex": 0
         },
         {
           "atomType": "GitHubMolecule",
@@ -1368,6 +1492,10 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 0.9
+                },
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1410,10 +1538,6 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 3
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -2047,6 +2171,10 @@
                     {
                       "name": "scaleFactor",
                       "ioValue": 1.01
+                    },
+                    {
+                      "name": "inputShape",
+                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -2089,10 +2217,6 @@
                     {
                       "name": "scaleFactor",
                       "ioValue": 3
-                    },
-                    {
-                      "name": "inputShape",
-                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -4360,68 +4484,6 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "ExtractTag",
-          "x": 0.6649616368286445,
-          "y": 0.641566265060241,
-          "uniqueID": "id-3993",
-          "name": "Extract Tag",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "tag": "Case_top",
-          "tagIndex": 0
-        },
-        {
-          "atomType": "Tag",
-          "x": 0.8584825234441603,
-          "y": 0.3403614457831325,
-          "uniqueID": "id-3999",
-          "name": "Case_top_full",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "tags": [
-            "Case_top_full"
-          ]
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.8243819266837169,
-          "y": 0.7951807228915663,
-          "uniqueID": "id-4002",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            }
-          ]
-        },
-        {
-          "atomType": "ExtractTag",
-          "x": 0.6726342710997443,
-          "y": 0.9066265060240964,
-          "uniqueID": "id-4007",
-          "name": "Extract Tag",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "tag": "Case_bottom",
-          "tagIndex": 0
         }
       ],
       "allConnectors": [
@@ -4491,6 +4553,26 @@
           "ap2ID": "id-492"
         },
         {
+          "ap2Name": "Shape 10",
+          "ap1ID": "id-3993",
+          "ap2ID": "id-492"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-3999",
+          "ap2ID": "id-4002"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-4002",
+          "ap2ID": "id-509"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-4007",
+          "ap2ID": "id-4002"
+        },
+        {
           "ap2Name": "Shape 1",
           "ap1ID": "id-439",
           "ap2ID": "id-497"
@@ -4529,94 +4611,9 @@
           "ap2Name": "geometry",
           "ap1ID": "id-719",
           "ap2ID": "id-4007"
-        },
-        {
-          "ap2Name": "Shape 10",
-          "ap1ID": "id-3993",
-          "ap2ID": "id-492"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-3999",
-          "ap2ID": "id-4002"
-        },
-        {
-          "ap2Name": "geometry1",
-          "ap1ID": "id-4002",
-          "ap2ID": "id-509"
-        },
-        {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-4007",
-          "ap2ID": "id-4002"
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Gcode",
-      "x": 0.7459505541346974,
-      "y": 0.18373493975903615,
-      "uniqueID": "id-4038",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Tool Size",
-          "ioValue": 6.35
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Heltec_E213_Radio_Case",
-          "currentEquation": "Heltec_E213_Radio_Case"
-        }
-      ],
-      "partName": "Heltec_E213_Radio_Case",
-      "sortDirection": "Left"
-    },
-    {
-      "atomType": "Export",
-      "x": 0.7442455242966752,
-      "y": 0.47289156626506024,
-      "uniqueID": "id-4045",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Heltec_E213_Radio_Case",
-          "currentEquation": "Heltec_E213_Radio_Case"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Heltec_E213_Radio_Case"
     }
   ],
   "allConnectors": [
