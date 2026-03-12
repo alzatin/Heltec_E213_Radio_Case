@@ -112,8 +112,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.5643648763853367,
-      "y": 0.3765060240963855,
+      "x": 0.5579937304075235,
+      "y": 0.3704819277108434,
       "uniqueID": "id-2790",
       "name": "Extract Tag",
       "ioValues": [
@@ -126,44 +126,9 @@
       "tagIndex": 0
     },
     {
-      "atomType": "Gcode",
-      "x": 0.7387669801462905,
-      "y": 0.17469879518072287,
-      "uniqueID": "id-4038",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Tool Size",
-          "ioValue": 6.35
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Heltec_E213_Radio_Case",
-          "currentEquation": "Heltec_E213_Radio_Case"
-        }
-      ],
-      "partName": "Heltec_E213_Radio_Case",
-      "sortDirection": "Left"
-    },
-    {
       "atomType": "Export",
-      "x": 0.7471264367816093,
-      "y": 0.4337349397590362,
+      "x": 0.7774294670846394,
+      "y": 0.34939759036144574,
       "uniqueID": "id-4045",
       "ioValues": [
         {
@@ -4627,11 +4592,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-2700",
       "ap2ID": "id-2703"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-2790",
-      "ap2ID": "id-4038"
     },
     {
       "ap2Name": "geometry",
