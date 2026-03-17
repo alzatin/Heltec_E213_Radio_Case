@@ -944,8 +944,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.8417366946778712,
-          "y": 0.7880597014925372,
+          "x": 0.8445378151260504,
+          "y": 0.6029850746268657,
           "uniqueID": "id-4002",
           "ioValues": [
             {
@@ -960,8 +960,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.7156862745098039,
-          "y": 0.7701492537313432,
+          "x": 0.7149859943977591,
+          "y": 0.7731343283582089,
           "uniqueID": "id-4007",
           "name": "Extract Tag",
           "ioValues": [
@@ -4547,7 +4547,7 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.7436974789915967,
+          "x": 0.7485994397759105,
           "y": 0.9194029850746269,
           "uniqueID": "id-5300",
           "ioValues": [
@@ -4560,6 +4560,36 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
+        },
+        {
+          "atomType": "Export",
+          "x": 0.8669467787114845,
+          "y": 0.8447761194029851,
+          "uniqueID": "id-5305",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STL",
+              "currentEquation": "STL"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "Case_bottom",
+              "currentEquation": "Case_bottom"
+            }
+          ],
+          "type": null,
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "Case_bottom"
         }
       ],
       "allConnectors": [
@@ -4697,6 +4727,11 @@
           "ap2Name": "Shape 2",
           "ap1ID": "id-5300",
           "ap2ID": "id-4002"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5300",
+          "ap2ID": "id-5305"
         }
       ],
       "fileTypeVersion": 1
