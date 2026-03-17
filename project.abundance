@@ -67,53 +67,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.6582633053221288,
-      "y": 0.6059701492537313,
-      "uniqueID": "id-2700",
-      "name": "Extract Tag",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tag": "Case_top",
-      "tagIndex": 0
-    },
-    {
-      "atomType": "Export",
-      "x": 0.8593350383631713,
-      "y": 0.7349397590361446,
-      "uniqueID": "id-2703",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Heltec_E213_Radio_Case_TOP",
-          "currentEquation": "Heltec_E213_Radio_Case_TOP"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Heltec_E213_Radio_Case_TOP"
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.5819327731092437,
-      "y": 0.4,
+      "x": 0.6176470588235294,
+      "y": 0.22686567164179106,
       "uniqueID": "id-2790",
       "name": "Extract Tag",
       "ioValues": [
@@ -127,8 +82,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.7710084033613445,
-      "y": 0.21791044776119403,
+      "x": 0.8340336134453782,
+      "y": 0.208955223880597,
       "uniqueID": "id-4045",
       "ioValues": [
         {
@@ -832,8 +787,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7851123595505619,
-          "y": 0.4849397590361446,
+          "x": 0.7899159663865546,
+          "y": 0.48358208955223886,
           "uniqueID": "id-492",
           "ioValues": [
             {
@@ -880,8 +835,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.8602528089887641,
-          "y": 0.5632530120481928,
+          "x": 0.8718487394957982,
+          "y": 0.5850746268656717,
           "uniqueID": "id-509",
           "ioValues": [
             {
@@ -973,8 +928,8 @@
         },
         {
           "atomType": "Tag",
-          "x": 0.8584825234441603,
-          "y": 0.3403614457831325,
+          "x": 0.8599439775910364,
+          "y": 0.3492537313432836,
           "uniqueID": "id-3999",
           "name": "Case_top_full",
           "ioValues": [
@@ -2806,8 +2761,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.5175561797752809,
-          "y": 0.8283132530120482,
+          "x": 0.5140056022408963,
+          "y": 0.8179104477611941,
           "uniqueID": "id-719",
           "name": "Case_shell",
           "ioValues": [
@@ -3022,8 +2977,8 @@
             },
             {
               "atomType": "Tag",
-              "x": 0.7433930093776641,
-              "y": 0.7801204819277108,
+              "x": 0.742296918767507,
+              "y": 0.7820895522388059,
               "uniqueID": "id-2709",
               "name": "Case_bottom",
               "ioValues": [
@@ -4655,23 +4610,25 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 40,
+          "currentEquation": "40"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 13,
+          "currentEquation": "13"
         }
       ]
     },
     {
       "atomType": "Difference",
-      "x": 0.5126050420168068,
-      "y": 0.5373134328358209,
+      "x": 0.5147058823529412,
+      "y": 0.5164179104477612,
       "uniqueID": "id-5243",
       "ioValues": [
         {
@@ -4693,18 +4650,8 @@
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-2700",
-      "ap2ID": "id-2703"
-    },
-    {
-      "ap2Name": "geometry",
       "ap1ID": "id-2790",
       "ap2ID": "id-4045"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-209",
-      "ap2ID": "id-2700"
     },
     {
       "ap2Name": "number or geometry",
